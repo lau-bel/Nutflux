@@ -3,7 +3,7 @@ require('./bootstrap');
 window.Vue = require('vue');
 
 Vue.component('articles', require('./components/Articles.vue'));
-Vue.component('navbar', require('./components/Navbar.vue'));
+Vue.component('navbar', require('./components/header/Navbar.vue'));
 Vue.component('anim', require('./components/Anim.vue'));
 Vue.component('logo', require('./components/Logo.vue'));
 Vue.component('login', require('./components/Login.vue'));
