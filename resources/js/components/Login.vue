@@ -22,7 +22,6 @@ export default{
         width:500px;
         height:500px;
         background-color:#B02E05;
-        border: 4px solid #FCBAA5;
         border-radius: 50%;
         padding-top: 5%;
         text-align: center;
