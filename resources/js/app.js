@@ -2,13 +2,12 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
-Vue.component('articles', require('./components/Articles.vue'));
-Vue.component('navbar', require('./components/header/Navbar.vue'));
 Vue.component('anim', require('./components/Anim.vue'));
 Vue.component('logo', require('./components/Logo.vue'));
 Vue.component('login', require('./components/Login.vue'));
 Vue.component('signin', require('./components/Signin.vue'));
 Vue.component('slogan', require('./components/Slogan.vue'));
+Vue.component('navbar', require('./components/Navbar.vue'))
 
 const app = new Vue({
     el: '#app'
